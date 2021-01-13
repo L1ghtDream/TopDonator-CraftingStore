@@ -1,0 +1,4 @@
+name: Topdonator
+version: ${project.version}
+main: me.lightdream.topdonator.Topdonator
+depend: [PlaceholderAPI]
