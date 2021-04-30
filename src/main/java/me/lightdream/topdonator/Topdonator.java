@@ -29,10 +29,13 @@ public final class Topdonator extends JavaPlugin {
                     {
                         plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "npc select 48");
                         plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "npc rename " + top1[0]);
+                        plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "npc skin " + top1[0]);
                         plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "npc select 49");
                         plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "npc rename " + top2[0]);
+                        plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "npc skin " + top2[0]);
                         plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "npc select 50");
                         plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "npc rename " + top3[0]);
+                        plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "npc skin " + top3[0]);
 
                         plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "holo setline donator1 4 &f&l" + top1[1] + "€ ");
                         plugin.getServer().dispatchCommand(Bukkit.getConsoleSender(), "holo setline donator2 4 &f&l" + top2[1] + "€ ");
